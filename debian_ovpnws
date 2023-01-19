@@ -1,3 +1,11 @@
+#!/bin/bash
+#Script Variables
+HOST='174.138.190.54';
+USER='ksatunne_emantunnelvpn';
+PASS='ki@@65oiofone';
+DBNAME='ksatunne_emantunnelvpn';
+PORT_TCP='1194';
+PORT_UDP='53';
 timedatectl set-timezone Asia/Riyadh
 install_require () {
 clear
